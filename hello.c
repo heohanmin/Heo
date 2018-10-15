@@ -1,4 +1,8 @@
 #include<stdio.h>
+
+void master (void){
+	printf("MASTER !!!\n");
+}
 void second(void){
 	printf("SECOND!!\n");
 }
@@ -10,5 +14,7 @@ int main()
 {
 	printf("hello hahaha");
 	myname();
+	master();
+
 	second();
 }
